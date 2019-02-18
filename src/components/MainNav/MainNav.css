@@ -1,0 +1,145 @@
+.c-main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+
+.c-main-nav__elem {
+    border-radius: .2em;
+    display: inline-block;
+}
+
+.c-main-nav__elem:hover {
+    background: #999;
+}
+
+.c-main-nav__link {
+    border: none;
+    color: #666;
+    display: flex;
+    font-size: 1em;
+    padding: .6em .5em;
+    text-decoration: none;
+    align-content: center;
+}
+
+.c-main-nav__link:hover {
+    border: none;
+}
+
+.c-main-nav__link svg {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 0 0 0;
+    color: #666;
+}
+
+.c-main-nav__link--is-active {
+    color: #48C5CB;
+}
+
+.c-main-nav__link--is-active svg {
+    color: #48C5CB;
+}
+
+.c-main-nav__elem--close-link {
+    background: #fff;
+    margin-left: .5em;
+}
+
+.c-main-nav__elem--close-link svg {
+    color: #48C5CB;
+}
+
+.c-main-nav__elem--close-link:hover {
+    background: #fff;
+}
+
+.c-main-nav__elem--close-link:hover svg {
+    color: F0686861;
+}
+
+.c-main-nav__text {
+    display: none;
+    vertical-align: middle;
+}
+
+.c-main-nav--is-hidden .c-main-nav__elem {
+    visibility: hidden;
+}
+
+.c-main-nav--is-hidden .c-main-nav__elem--close-link {
+    visibility: visible;
+    border-bottom: 1px solid #fff;
+}
+
+.c-main-nav--is-open {
+    align-content: stretch;
+    border: 1px dashed #48C5CB;
+    border-radius: .3em;
+    background: #fff;
+    flex-direction: column;
+    margin-top: -3px;
+    padding: .5rem .7rem;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 50000;
+}
+
+.c-main-nav--is-open .c-main-nav__elem {
+    display: block;
+    padding: 0 2px;
+}
+
+.c-main-nav--is-open .c-main-nav__link {
+    display: flex;
+    padding: .6em .3em;
+}
+
+.c-main-nav--is-open .c-main-nav__text {
+    display: inline-block;
+    padding: 0 0 0 .7em;
+}
+
+.c-main-nav--is-open .c-main-nav__elem--close-link {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .c-main-header__nav {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .c-main-header {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    .c-main-header__logo {
+        align-self: center;
+    }
+
+}
+
+@media screen and (min-width: 44rem) {
+    .c-main-nav__text {
+        display: inline-block;
+        padding: 0 0 0 .5em;
+    }
+
+    .c-main-nav__elem--close-link {
+        display: none;
+    }
+}

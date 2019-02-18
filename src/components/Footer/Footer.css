@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    background: rgb(23, 21, 21);
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px
+}
+
+.footer h4 {
+    color: #fff;
+    font-weight: 300;
+    align-self: center;
+}
+
+
+@media (max-width: 640px - 1px) {
+    .notice-container {
+        justify-content: space-around;
+    }
+}
+
+.notice-container h4 {
+    text-align: center;
+    margin: 0;
+}

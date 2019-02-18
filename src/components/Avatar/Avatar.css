@@ -1,0 +1,27 @@
+.c-avatar {
+    overflow: hidden;
+}
+
+.c-avatar img {
+    height: auto;
+    width: 100%;
+}
+
+.c-avatar--as-logo {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 421px) {
+    .c-avatar--as-logo {
+        height: 50px;
+        width: 50px;
+        padding-bottom: 5px;
+    }
+}
+
+.c-avatar--as-author {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

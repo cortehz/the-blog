@@ -1,0 +1,43 @@
+[{
+        "name": "React Weather App",
+        "type": "front-end",
+        "description": "A weather Application using the OpenWeather API to get a Five Day Average Weather Forecast for some of your Favourite Cities in the US.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1520045009/weather_lu2aub.png",
+        "url": "wedara.herokuapp.com"
+    },
+    {
+        "name": "YouTube Search App - Tube-5",
+        "type": "front-end",
+        "description": "A Simple App(Tube-5) to search for YouTube videos using React and Redux and the Youtube API. A rather faster Search as compared to Youtube.com. Partly due to the fact that it brings out the Top 5 Matches.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1519658201/portfolio/ytsearch_g5e7bl.png",
+        "url": "tube-5.herokuapp.com"
+    },
+    {
+        "name": "Student Resource App",
+        "type": "full stack",
+        "description": "Built with NodeJs and MongoDB as a prerequisite to being accepted into the Andela and Google Learning Community 2.0 Intermediate Web Track. Functionality: CRUD, Authentication and Authorization.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1517224593/portfolio/whiteboard-main_zwuqm9.png",
+        "url": "whyteboard.herokuapp.com"
+    },
+    {
+        "name": "Landing page",
+        "type": "front-end",
+        "description": "A highly responsive and mobile friendly landing page for a rehabilitation/mental clinic. Built on the back of modern technology; HTML5, CSS3, bootstrap, jQuery. Find a link as hosted with netlify below.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1517224587/portfolio/peacecentre_ygfd5q.png",
+        "url": "https://atpeacecentre.org"
+    },
+    {
+        "name": "Portfolio Page",
+        "type": "front-end",
+        "description": "Portfolio page Interface built for a Member of the House Representatives, 8th Nigerian National Assembly. Built with HTML, CSS, Bootstrap and JavaScript.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1517224594/portfolio/hon_bbmc8z.png",
+        "url": "hassansaleh.com.ng"
+    },
+    {
+        "name": "React Recipe App",
+        "type": "front-end",
+        "description": "A basic react application. Getting my feet wet on how to manage state in React.",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1517224588/portfolio/recipeApp_wjlq5q.png",
+        "url": "https://github.com/cortehz/recipe-app-state"
+    }
+]

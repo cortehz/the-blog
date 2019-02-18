@@ -1,0 +1,63 @@
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+}
+
+#skills h2 {
+  color: #666;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+#skills ul {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+#skills li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 7px;
+  padding: 17px 15px;
+  color: rgb(78, 78, 82);
+  background: rgba(255, 254, 254, 0.646);
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  box-shadow: .2em .2em .2em rgba(0, 0, 0, .4);
+}
+
+#skills li svg {
+  font-size: 3em;
+}
+
+#skills .html svg:hover {
+  color: #ff4d54;
+}
+
+#skills .css svg:hover {
+  color: coral;
+}
+
+#skills .js svg:hover {
+  color: gold;
+}
+
+#skills .node svg:hover {
+  color: chartreuse;
+}
+
+#skills .react svg:hover {
+  color: aqua;
+}
+
+#skills .git svg:hover {
+  color: #000;
+}

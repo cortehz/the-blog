@@ -1,0 +1,62 @@
+.about-uss {
+    margin-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 50px;
+}
+
+.about-uss p {
+    font-size: 1.5em;
+    text-align: justify;
+    align-self: center;
+}
+
+.section-about {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-hr {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-hr hr {
+    width: 15%;
+    border: 2.5px solid #48C5CA;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+}
+
+.about-button {
+    background-image: linear-gradient(to right, #48C5CA, rgb(83, 226, 102));
+    padding: 10px 5rem 10px 5rem;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(94, 93, 93, 0.383);
+    font-size: 1rem;
+}
+
+
+
+.about-button:hover {
+    box-shadow: 0rem 0.15rem 0.15rem 0.15rem rgba(94, 93, 93, 0.383);
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+.div-about {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 318px) {
+    .about-button {
+        font-size: 1rem;
+    }
+
+}

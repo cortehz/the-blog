@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    max-width: 100%;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.page-wrap {
+
+
+    padding: 0;
+    perspective: 1px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #fff;
+    font-family: 'avenir next', avenir,
+        helvetica, 'helvetica neue',
+        arial, sans-serif;
+    color: black;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
+
+/* p {
+    font-size: 1.2em;
+} */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.center img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.clickable {
+    transform: translateZ(0);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Off-screen text for accessibility */
+.screen-reader-text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#headshot {
+    width: 200px;
+    padding: .5em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .4);
+    box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
+}
+
+.content {
+    width: 80vw;
+    max-width: 45em;
+    padding: 1.5em 2em;
+    margin: 0 auto;
+    /* background: rgba(255, 255, 255, .75); */
+    color: #fff;
+    box-shadow: 2em 1.5em 2em rgba(63, 26, 23, 0.4);
+}
+
+.card {
+    position: relative;
+    padding: 2vh 15px 5vh 2px;
+    min-height: 100%;
+    max-width: 100vw;
+    transform-style: inherit;
+
+}
+
+
+#home {
+    background-image: url(//i.imgsafe.org/8717961.jpg);
+    background-size: cover;
+    text-align: center;
+    z-index: 99;
+}
+
+#home .profil {
+    position: relative;
+    max-width: 34.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    margin-bottom: 25.6px;
+}
+
+#home .profil::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#home .profil .profil-img {
+    color: transparent;
+    background-image: url(//i.imgsafe.org/e5e9d41.jpg);
+    background-size: contain;
+    height: 10.5rem;
+    width: 10.5rem;
+    margin: 0 auto 25.6px auto;
+    box-shadow: 0 0.0625rem 0.125rem #0e393b;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+}
+
+@media screen and (max-width: 1023px) {
+    #home .profil .profil-img {
+        height: 10.5rem;
+        width: 10.5rem;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    #home .profil .profil-img {
+        height: 8.25rem;
+        width: 8.25rem;
+    }
+}
+
+#home .profil h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    background-color: #2FC5CC;
+    color: #F4F7F7;
+    text-shadow: 0.25rem 0.25rem #0e393b;
+    display: inline-block;
+    padding: 0.3125rem 1.25rem;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+}
+
+@media screen and (max-width: 1023px) {
+    #home .profil h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    #home .profil h1 {
+        font-size: 2.25rem;
+        text-shadow: 0.1875rem 0.1875rem #0e393b;
+    }
+}
+
+#home .profil p u {
+    display: inline-block;
+    color: #F4F7F7;
+    background-color: #F06868;
+    padding: 0.3125rem 1.25rem;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 15px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .section {
+        position: relative;
+        height: 100vh;
+        padding: 102.4px 0;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .section {
+        position: relative;
+        height: auto;
+        padding: 102.4px 0;
+    }
+}
+
+@media screen and (max-height: 719px) {
+    .section {
+        position: relative;
+        height: auto;
+        padding: 50px 0;
+    }
+}
+
+.section .section-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 559px) {
+    .section .section-container {
+        top: 0;
+        transform: none;
+    }
+}
+
+@media screen and (max-height: 719px) {
+    .section .section-container {
+        top: 0;
+        transform: none;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    margin: 10px;
+}
