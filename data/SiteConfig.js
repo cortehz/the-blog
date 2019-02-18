@@ -4,8 +4,8 @@ const config = {
   siteTitleAlt: "Samuel Omanchi's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-512x512.png", // Logo used for SEO and manifest.
   siteCover: '/images/cover.jpg',
-  siteUrl: "https://libertytherapies.netlify.com", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-advanced-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteUrl: "https://samuelomanchi.com", // Domain of your website without pathPrefix.
+  // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "A Personal Portfolio and blog by Samuel Omanchi", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
