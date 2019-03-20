@@ -12,7 +12,7 @@ class Footer extends Component {
       return null;
     }
     return (
-      <footer className="footer">
+      <footer id="#contact" className="footer">
         <div className="mail">
           <a className="mailer" href="mailto:omanchis@gmail.com">
             Email Me
@@ -32,7 +32,7 @@ class Footer extends Component {
             <FaLinkedin color="#fff" size="20px" />
           </a>
         </div>
-        <h4 id="#contact">{copyright}</h4>
+        <h4>{copyright}</h4>
       </footer>
     );
   }

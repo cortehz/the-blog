@@ -49,7 +49,7 @@ class MainNav extends React.Component {
         { to: "/#projects", text: "portfolio", icon: FaBriefcase },
         { to: "/blog/", text: "blog", icon: FaPenSquare },
         {
-          to: "mailto:omanchis@gmail.com",
+          to: "#contact",
           text: "contact",
           icon: FaTelegramPlane
         }
