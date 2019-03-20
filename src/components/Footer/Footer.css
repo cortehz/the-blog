@@ -6,10 +6,38 @@
     padding: 20px
 }
 
+.mail {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 4px;
+
+
+}
+
+
+.mail svg {
+    margin: 5px;
+}
+
 .footer h4 {
     color: #fff;
     font-weight: 300;
     align-self: center;
+}
+
+@media only screen and (max-width: 549px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mail {
+        justify-content: center;
+    }
 }
 
 

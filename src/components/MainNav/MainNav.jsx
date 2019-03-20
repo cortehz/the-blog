@@ -48,7 +48,11 @@ class MainNav extends React.Component {
         { to: "/about/", text: "about me", icon: FaUserAlt },
         { to: "/#projects", text: "portfolio", icon: FaBriefcase },
         { to: "/blog/", text: "blog", icon: FaPenSquare },
-        { to: "/#contact", text: "contact", icon: FaTelegramPlane }
+        {
+          to: "mailto:omanchis@gmail.com",
+          text: "contact",
+          icon: FaTelegramPlane
+        }
       ],
       mainNavModifierClassName: "",
       mobileDetailsNav: null

@@ -19,43 +19,39 @@ const About = () => {
               <div className="desc">
                 <h4 className="subtitle">Web Development</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  ex ligula, mollis nec molestie id, bibendum vel dui. Duis
-                  scelerisque, est vitae facilisis eleifend, eros dolor
-                  dignissim lectus, sed suscipit sapien arcu ut erat. Ut non
-                  mollis lacus, vulputate convallis lacus.
+                  My name is Samuel Omanchi, I am a Freelance Developer based in
+                  Abuja, Nigeria. I mostly build front end interfaces with some
+                  of the best technologies like HTML5, CSS3, JavaScript,
+                  ReactJs, and Bootstrap. Currently really playing around with
+                  GatsbyJs and really love how intuitive and how easy it is to
+                  get a performant setup running. On the other side i am very
+                  much enthusiastic about mobile development and I have been
+                  going about with React Native as well.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  ex ligula, mollis nec molestie id, bibendum vel dui. Duis
-                  scelerisque, est vitae facilisis eleifend, eros dolor
-                  dignissim lectus, sed suscipit sapien arcu ut erat. Ut non
-                  mollis lacus, vulputate convallis lacus.
+                  I also have a good working knowledge of the backend with
+                  NodeJs to be considered in the realm of the Full Stacks. I can
+                  make a NodeJs JSON API and can make calls to various APIs. I
+                  am presently very open to Freelance and Full time offers, so
+                  please, hit the contact link if you have some project that I
+                  might be a good fit for.
                 </p>
               </div>
               <div className="desc">
                 <h4 className="subtitle">Graphic Design</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  ex ligula, mollis nec molestie id, bibendum vel dui. Duis
-                  scelerisque, est vitae facilisis eleifend, eros dolor
-                  dignissim lectus, sed suscipit sapien arcu ut erat. Ut non
-                  mollis lacus, vulputate convallis lacus.
+                  I also love playing around with graphics and can conjure up
+                  superb logos from my Mastery of Adobe Illustrator. Presently
+                  building up my design portfolio but feel free to check out my
+                  Portfolio: Link coming soon.
                 </p>
-                <p>
-                  Donec imperdiet tempus sapien, non condimentum quam.
-                  Suspendisse potenti. Integer ut dignissim metus. Curabitur dui
-                  nibh, cursus non augue sit amet, faucibus efficitur tortor.
-                  Fusce a felis ac lacus fermentum porttitor sed id dolor. Donec
-                  facilisis tristique urna, a sodales lorem vehicula in. Duis
-                  scelerisque bibendum dignissim.
-                </p>
+                <p />
               </div>
             </article>
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </Layout>
   );
 };

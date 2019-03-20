@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 import config from "../../../data/SiteConfig";
 import "./Footer.css";
 
@@ -13,7 +13,12 @@ class Footer extends Component {
     }
     return (
       <footer className="footer">
-        <h4>{copyright}</h4>
+        <div className="mail">
+          <a className="mailer" href="mailto:omanchis@gmail.com">
+            Email Me
+          </a>
+          <FaPaperPlane color="#fff" size="20px" />
+        </div>
 
         <div className="social">
           <a href="https://github.com/cortehz">
@@ -27,6 +32,7 @@ class Footer extends Component {
             <FaLinkedin color="#fff" size="20px" />
           </a>
         </div>
+        <h4 id="#contact">{copyright}</h4>
       </footer>
     );
   }

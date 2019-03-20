@@ -1,68 +1,21 @@
 ---
-title: "ultis timidus hic si auctor hausit. Suos taedasque, malis est nitente sceleri"
-cover: "https://unsplash.it/400/300/?random?BoldMage"
+title: "2018 - A Look back"
+cover: "https://images.unsplash.com/photo-1495539406979-bf61750d38ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 date: "2019-01-01"
-category: "tech"
+dates: "January 1st 2019"
+category: "techy"
 tags:
-  - programming
-  - stuff
   - other
 ---
 
-# Quanto et ius coniunctis urbes
+Starting the New Year with my first blog post on my brand new portfolio site built with the amazing GatsbyJs by yours truly. It is amazing how powerful a tool it is. 2018 has been a good year after all is said. I made significant progress with my Software Development skills and I would like to talk about some of the little things I consider as achievements during the past year and in no particular order.
 
-## Sedisti civiliter
+Sometime in 2018, I set out to learn ReactJs and while I still feel a little bit of impostor syndrome every now I then I think my skill set are starting to get to a point where I feel rather confident. Pluralsight thinks I’m an intermediate React developer and I could work with that. I got to read a whole lot of articles, watched countless talks and tutorial video on youtube. Finished three React and Redux bootcamps on Udemy. I was beginning to stuck in what somebody once called the “Tutorial Purgatory” – hopping from one tutorial to another. With every article or video I discorvered I was already very comfortable with a lot of React and nothing was new to me.
 
-Lorem **markdownum** Ixione palus **semper peritura barbaque** in aureus
-obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
-animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
-_Talibus ausis_.
+I then got a chance to build something real. Firstly, I built a basic student resource Application with CRUD and authentication and authorization in NodeJs. It was built as a prerequisite to being accepted into the Andela Learning community Intermediate web track. I got accepted and learned a lot about offline first and mobile first first approach to development. I then built my first Progressive Web Application using React. It was the final project built for completing the Andela Learning Community Intermediate web track. I got my certificate of completion as a Mobile Web Specialist. While I found the certificate rather valuable, it was the learning experience that I cherished the more. I got to learn and collaborate with some of the leading experts I the industry on Udacity and Andela. I want to thank Andela, Udacity and Google for the conscious efforts to build the community.
 
-## Vultusque subsequitur Pallas regis datis inde animaque
+I also participated in the hotels.ng remote internship where I got to the 7th stage. It wasn’t my best performance as it was a 15-stage internship but I was working a day Job at the time – still do – and couldn’t pick up available tasks to finish. But hey! No excuses, they were a lot of talented devs on there. It was still a fantastic experience; making those GitHub contributions and working in teams. Ever since my dev journey it has always been a lone-walker esque thing for me. Whole-heartedly looking forward to the next internship that should be in another month’s time -- hopefully. Would surely go the full ride this time.
 
-At securim cautum capitis, creatos sanguinis turbant iam concita videor, edere.
-Alis genas rudis felix quas **longum** suorum manu ante prima **usque**. Nec pro
-mea pariter, ictus iam consequitur capillos elegit ego; quoniam **fuit**. Aether
-Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
+I also got my first tech interview this year. It was a front-end position but surprisingly had to go through tests in PHP and I surprisingly got more questions right under the PHP section than in JavaScript; I’ve heard JS could be that confusing. They were right, but we love it either ways. Went through a couple of stages and ultimately got offered a position. I couldn’t take up the offer as it wasn’t what I was looking for but it was quite the experience for me. It showed me I had come a long way and was ready to forge further. I found myself spitting some real technical jargon during the oral interview and I was impressed. Still looking to switch full time to tech but in the meantime, skill honing continues.
 
-```php
-    urlLinkedin.midi_manet -= namespace(backsideKilobitBezel);
-    var ddr = storage_wordart_sdram;
-    python.raw_backlink = rfid_load - 4;
-    kibibyte *= cdnThumbnailUri;
-```
-
-## Fortis dextrae humo limina Tempus singultibus illa
-
-Nate muros orbe [patris](http://debebuntilla.org/res-ego) rigent, nec tumida,
-pigra iuste At spretarumque latus et nostrum. Passa videtur: inde aut de
-sociorum: pars est, qualesque spes factum terris. Custodia sum animumque; iubet
-in pulvere carus, relinquunt incitat. Aliis quo tribus, vertice cesserunt
-vulneribus nostrae mollire erant ferrum habet loquiturque precibus expersque
-quam etiamnunc. Puraque [repetitque](http://mihi-aiax.io/suaferunt.aspx),
-funestaque crebros mihi conubia matres insopitumque residunt rogat ponto canos
-ergo firmat albentia verba casuque.
-
-```perl
-    if (lion_vdu + vrml_upnp - redundancyAccessPharming) {
-        driveProcessor = floatingWord(commerceDockRestore(database));
-    } else {
-        partition_source_thunderbolt = -2 + tokenStateArchive /
-                teraflops_gigahertz;
-    }
-    exabytePhpMacintosh -= graphic_cycle(expression, memory(ideFatMatrix,
-            controlInboxMode), 50) + -3;
-    buffer_apple_hdmi += viralSync + internetDigital / tweak_perl_expansion(
-            masterNullFloating + vdu, software_play);
-```
-
-## Nati expugnacior nympha milia nascuntur amico
-
-Multis timidus hic si auctor hausit. Suos taedasque, malis est nitente sceleri
-sunt florem.
-
-Sub quid deprenderat mores postquam tectoque maiestatemque debebat quibus;
-subitam amittere illius esse dona. Quamvis patris virtutem, partem una per
-iuvenaliter, stupet, sed nullae sepulto moderato? Nec phaedimus aequoris dixit.
-Hic bis parenti: e petunt satis.
+Lastly, I finally got to lunch this blog. Pheeew! I really procrastinated with this one. It isn’t the most beautiful thing you’d see on the Internet but it is start. Most importantly I just need to be consistent with the writings. The blog is rightly built with GatsbyJs and I can’t overemphasize how intuitive GatsbyJs is. It is such a powerful tool if you do Web Development in 2019 as everything is practically laid out on a platter so much that it feels like cheating. Going through the docs and you could immediately see the magic that goes on under the hood. Thank you Gatsby for being awesome. These are some of the short things I feel I achieved in tech for the past year. They aren’t things that will hit the headlines but look out for me in the new year. I look to start speaking at tech events and writing a whole lot of technical articles; God help me. Watch out this space!!

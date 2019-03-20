@@ -1,84 +1,83 @@
 ---
-title: "Multis timidus hic si auctor hausit. Suos taedasque, malis est nitente sceleri"
-cover: "https://unsplash.it/400/300/?random?TheFallenTime"
-date: "2019-01-01"
-category: "another one"
+title: "JavaScript Promises"
+cover: "https://unsplash.it/400/300/?random?BoldMage"
+date: "2019-02-24"
+dates: "February 24th 2019"
+category: "tech"
 tags:
-  - test
-  - something
-  - tagging
+  - programming
+  - javascript
 ---
 
-# Autolyci eminus retenta
+This article was originally posted on my Medium profile on November, 2 2017.
 
-## Hoc domum solitos veteremque nostrum
+So I've decided to "medium" my way through whatever it is I'm learning at any moment in my developer career. If there's was an app that kept track of all the articles I've had to read about getting started with writing as a developer, am sure it'll need some scaling - I've had to read a lot - without actually putting what I read to practice. Am sure there are a lot of other Developers like me out there. If you're wondering how to start, pick up the gauntlet like I have today and write something. Anything. Like the saying goes: If you don't shoot, you don't score. If you want something to help you get started, [Sam Jarman](https://medium.com/@samjarman) wrote a good piece: [How to Build an Online presence as a Junior Developer](https://hackernoon.com/how-to-build-an-online-presence-as-a-junior-developer-c90bc096989b).
 
-Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
-quales dant, puppim hanc!
+That said, I’ve decided to write about Promise in JavaScript, with the hope that it’ll help me or somebody out there to understand the underlying concept better. But for you to grasp some of the terms, you need to have a basic understanding of a few JavaScript concepts.
 
-```js
-enterprise /= mp_operating_quad;
-dsl_runtime.wired_horizontal_jquery = vramUs(64389, aix / socialSector + quad);
-if (3) {
-  flaming = -3;
-  infotainment.horseThreadColumn(copySnippet, 5, day);
+Promise is a declaration that an asynchronous JavaScript operation will do something; either succeed or fail, resulting in a value whatever the case. Be it a success value or the reason for a failure. Too much talk so far. Let’s create a quick promise:
+
+```var firstPromise = new Promise (function(resolve, reject){
+       resolve([1,2,3,4,5]);
+});
+firstPromise.then(function(array){
+ console.log("firstPromise resolved with data:", array);});
+```
+
+Well, whats happening here? Let’s see. We created a new “Promise” constructor with a callback function and assigned it to the variable “firstPromise”. The function takes two(2) parameters: resolve and reject. So if it is resolved correctly “resolve” is called. We then create another callback function with the “.then” method which invokes when resolve in the promise is invoked, the value is then passed to the “array” parameter in the callback. This is what we get in the console:
+
+![alt text][console]
+[console]: https://cdn-images-1.medium.com/max/800/1*SjagZnDb99WjZcqvQfIN_w.png "printed to console"
+
+The promise above only accounts for a situation where the promise is resolved, we all know promises are not being kept these days, JavaScript is not left out. Next, lets look at how rejects are handled in Promise. A quick example:
+
+```
+var secondPromise = new Promise (function(resolve, reject){
+       reject("An Error occurred");
+});
+secondPromise.then(function(value){
+ console.log("secondPromise resolved with data:", value);
+})
+.catch(function(value){
+   console.log("secondPromise was rejected with data:", value);
+});
+```
+
+Just like the first promise we created, but this time we are invoking the “reject” parameter in the “Promise”. The other new concept here is the “.catch” method which invokes the “reject” in the promise when a failure is encountered. This time, this is what we get printed out to the console:
+
+![alt text][console]
+[console]: https://cdn-images-1.medium.com/max/800/1*gYqUXApOQR1XPCyNn7xpGg.png "printed to console"
+
+These are basics of Promise in Javascript, outputting a result where an operation is successfully resolved or another result to indicate the failure of the operation and the cause of this failure. In above examples, we are only handling one possible outcome(resolve or reject).
+
+Now, another quick example, this time our outcome could either be a “reject” or “resolve”. We would do this using if, else statements.
+
+```
+var thirdPromise = new Promise(function(resolve, reject){
+var number = Math.random();
+ if (number < 0.5) {
+        resolve(number);
 } else {
-  num_network_cpa = firewireAluExbibyte + denial_virtual_logic + program;
+        reject(number);
 }
-scanner(1, ram_wddm(map, reader + 3, ole_install));
+});
+thirdPromise.then(function(result) {
+     console.log("Succeeded:", result);
+}) .catch(function(error) {
+     console.log("Error:", error);
+});
 ```
 
-## In nunc
+Lets quickly run through whats happening above. We are calling a Math.random() function. What does this do? “The `Math.random()` function returns a floating-point, pseudo-random number in the range `[0, 1)`; that is, from 0 (inclusive) up to but not including 1 (exclusive), which you can then scale to your desired range.” Pretty straightforward what that does. Feeling like one math guru there with that definition, but that was curled from MDN web docs. the if statement is saying if the variable number which would be generated by the `math.random()` is less than 0.5, it should be resolved, the `.then` method is now invoked which then invokes the “number” and passes it to “result” parameter in the callback function.
 
-Superinposita dira me Iove, lanigeris tendunt! Illis gladii, in pignusque dixit
-trisulcis latices. Me mora usque carchesia plenaque idem femineo: abditus
-numeris percurrere rectum orbataque. Lucibus nocuisse et nova attactu et secura,
-enim poterentur.
+However, if the number is greater than `0.5`, the else statement is executed which invokes the reject by virtue of the .catch method. This catches the failure and passes it to the “error” parameter, printing out the error to the console; saying the number is greater than `0.5`. This what I got printed out at the first trial:
 
-Infelix ait eadem. Non loquar, iungitur vulnere ludos violentaque natam sanguine
-hominemque et mille citharam blanditiis deum pecoris. Vibrabant et crimina
-iterum: et nisi victa quietis litore? Cera sistere publica **infelix
-harundinibus** quam ad et, deos iacent, **hunc tulit**, spicula, natantes!
-Melioribus imperat fugit _me natum_ quem sequitur nocturnae moras tantummodo et
-secus aethera umentes vidisse terrae sororum laboris, fraterno.
+![alt text][console]
+[console]: https://cdn-images-1.medium.com/max/800/1*b2Aye-BywJ4JTPNXxQ7ytw.png "This succeeds because the random number generated was less than 0.5"
 
-## Perpetiar lacrimas Non dare
+And then, on running the code the second time, I got a reject like so:
 
-Tibi ducit incursu nomina terrae, feratur satis Telethusa corpore Eurynome in
-semina adiecit! Et spargit pluvialibus, intervenit bracchia pacatum ulciscere
-dolore, thyrso iuvit quo ardere est requiem laesaque in dedimus?
+![alt text][console]
+[console]: https://cdn-images-1.medium.com/max/800/1*hVLR1nkPgf0bFePJ7BriVA.png "This failed because the random number generated was greater than 0.5"
 
-## Est in sit suos fessa
-
-Est illo Osiris aevo, et **dextrae** quoque et, illa. Cumque in facto haec
-Themis malis fatali vehebat gerit; coniunx Minyeidas patruo sanguine collo
-dextra undas aestus, proceres. Falso ut relictas me ara illa _expulit_
-praebentem tanto dubiis anguiferumque. Fata vidit [suam caede
-mirere](http://nare.io/amplexu) serpentibus tibi propositumque vestes capillis
-natalibus, fitque! Verba Siphnon, arcanaque vicina, Cycnum mox suos coniunx
-ebrius.
-
-```java
-    if (hsf(-3) > artMetalMeme.yottabytePrimary(circuit, 1)) {
-        saas.backbone += netmaskUtf;
-    } else {
-        engineNybble.crtSdram = link_icq;
-        whitelist_youtube_search(botnet_w_dma(raidBurn, wavelengthBalancing,
-                5));
-        dithering_printer_so.file(toggle_right);
-    }
-    modifierDaemonOpen *= video(touchscreen_speed(692730), sound_lion_finder,
-            nanometer_variable + of(ldap, recursion_pop_zebibyte, c));
-    if (popCrossplatformVdsl) {
-        thunderboltMnemonic -= 2 - lte(648733);
-        ddr_spoofing *= metal_commercial + http;
-    } else {
-        leafPowerBar = spoolPower;
-        file_itunes += dataLifo;
-    }
-    binary *= 2;
-```
-
-Unumque extemplo melius in unda claudit artem clausum quos amare; damnum formae,
-fragor erubuere Vesta; pietas. Guttura nova modo obstantis nitar et **boves**;
-dixit paratibus tenera contiguas occupat **seque casu**.
+So, these are something of the basic Promise concepts I just learned. Putting this out here just gave me a better understanding — Certainly going to be doing this more often. Also hoping it would help somebody getting started with concepts like this too. Harsh criticisms are highly welcomed down below. Some feedback will be highly appreciated. Still, endeavour to clap, it could be sarcastic as well.

@@ -6,7 +6,7 @@ import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import MainHeader from "../components/MainHeader/MainHeader";
-import Footer from '../components/Footer/Footer';
+import Footer from "../components/Footer/Footer";
 
 class Index extends React.Component {
   render() {
@@ -26,7 +26,7 @@ class Index extends React.Component {
               </div>
             </div>
           </div>
-          <Footer/>
+          <Footer />
         </Layout>
       </>
     );
@@ -55,6 +55,7 @@ export const pageQuery = graphql`
             tags
             cover
             date
+            dates
           }
         }
       }

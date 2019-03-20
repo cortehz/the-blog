@@ -78,7 +78,7 @@ export default class PostTemplate extends React.Component {
                     fontWeight: "normal"
                   }}
                 >
-                  {post.date}
+                  {post.dates}
                 </h4>
                 <span
                   style={{ alignSelf: "flex-start", color: "white" }}
@@ -111,7 +111,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         cover
-        date
+        dates
         category
         tags
       }
