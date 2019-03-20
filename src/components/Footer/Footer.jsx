@@ -14,7 +14,11 @@ class Footer extends Component {
     return (
       <footer id="#contact" className="footer">
         <div className="mail">
-          <a className="mailer" href="mailto:omanchis@gmail.com">
+          <a
+            className="mailer"
+            href="mailto:omanchis@gmail.com"
+            style={{ color: "white" }}
+          >
             Email Me
           </a>
           <FaPaperPlane color="#fff" size="20px" />
