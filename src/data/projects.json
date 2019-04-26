@@ -39,5 +39,12 @@
         "description": "A basic react application. Getting my feet wet on how to manage state in React.",
         "img": "https://res.cloudinary.com/cortehz/image/upload/v1517224588/portfolio/recipeApp_wjlq5q.png",
         "url": "https://github.com/cortehz/recipe-app-state"
+    },
+    {
+        "name": "Liberty therapies",
+        "type": "front-end",
+        "description": "Built this responsive website with a blog attached for liberty therapies Using GatsbyJs. Still being worked on but live in the link below",
+        "img": "https://res.cloudinary.com/cortehz/image/upload/v1556276831/Screenshot_2019-04-23_at_12.24.44_PM_higckr.png",
+        "url": "https://libertytherapies.org"
     }
 ]
